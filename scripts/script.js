@@ -15,32 +15,14 @@ tabButtons.forEach(button => {
 });
 // tab functions 
 
-const prevButton = document.getElementById('prev-button');
-const nextButton = document.getElementById('next-button');
-let currentTabIndex = 0;
-const tabs = Array.from(tabButtons);
-// nav buttons
-
-tabs.forEach((tab, index) => {
-    if (tab.classList.contains('active')) {
-        currentTabIndex = index;
-    }
+const aboutButtons = document.querySelectorAll('.about-button');
+aboutButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const tabId = button.getAttribute('data-tab');
+        document.querySelector(`.tab-button[data-tab="${tabId}"]`).click();
+    });
 });
-
-prevButton.addEventListener('click', () => {
-    if (currentTabIndex > 0) {
-        currentTabIndex--;
-        tabs[currentTabIndex].click();
-    }
-});
-
-nextButton.addEventListener('click', () => {
-    if (currentTabIndex < tabs.length - 1) {
-        currentTabIndex++;
-        tabs[currentTabIndex].click();
-    }
-});
-// 
+// about me buttons 
 
 const contactForm = document.getElementById('contact-form');
 if (contactForm) {
@@ -50,4 +32,4 @@ if (contactForm) {
         contactForm.reset();
     });
 }
-// submitting form
+// submission form

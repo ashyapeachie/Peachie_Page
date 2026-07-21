@@ -15,15 +15,16 @@
         <div class="container">
             <!-- header -->
             <header class="header">
-                <h1>Welcome to Peachie's Landing Page</h1>
-                <p>A cute little website...</p>
+                <h1>Ashya Peachie</h1>
+                <p>Welcome to my Landing Page!</p>
             </header>
 
             <!-- nav tabs -->
             <div class="tabs">
                 <button class="tab-button active" data-tab="home">Home</button>
-                <button class="tab-button" data-tab="gallery">Gallery</button>
-                <button class="tab-button" data-tab="about">About</button>
+                <button class="tab-button" data-tab="about">About Me</button>
+                <button class="tab-button" data-tab="artist">Artist</button>
+                <button class="tab-button" data-tab="programmer">Programmer</button>
                 <button class="tab-button" data-tab="contact">Contact</button>
             </div>
 
@@ -32,52 +33,80 @@
                 <!-- home -->
                 <div id="home" class="tab-panel active">
                     <h2>Home</h2>
+                    
                     <p>...</p>
+
                     <div class="button-group">
                         <button class="nav-button prev-button" data-tab="home">← Previous</button>
                         <button class="nav-button next-button" data-tab="gallery">Next →</button>
                     </div>
                 </div>
 
-                <!-- gallery, to be changed -->
-                <div id="gallery" class="tab-panel">
-                    <h2>Gallery</h2>
-                    <p>...</p>
-                    <div class="gallery-grid">
-                        <div class="gallery-item">Artwork 1</div>
-                        <div class="gallery-item">Artwork 2</div>
-                        <div class="gallery-item">Artwork 3</div>
-                        <div class="gallery-item">Artwork 4</div>
-                    </div>
-                    <div class="button-group">
-                        <button class="nav-button prev-button" data-tab="home">← Previous</button>
-                        <button class="nav-button next-button" data-tab="about">Next →</button>
-                    </div>
-                </div>
-
                 <!-- about -->
                 <div id="about" class="tab-panel">
-                    <h2>About</h2>
-                    <p>...</p>
+                    <h2>About Me</h2>
+
+                    <p>Hi my name's Ashya, also known as Peachie!</p>
+
                     <div class="button-group">
                         <button class="nav-button prev-button" data-tab="gallery">← Previous</button>
                         <button class="nav-button next-button" data-tab="contact">Next →</button>
+                    </div>
+                </div>
+                
+                <!-- programmer -->
+                <div id="programmer" class="tab-panel">
+                    <h2>Programmer</h2>
+
+                    <p>...</p>
+
+                    <div class="programmer-links">
+                        <a href="https://github.com/ashyapeachie" class="social-link" target="_blank">GitHub</a>
+                        <!--<a href="https://linkedin.com/in/yourprofile" class="social-link" target="_blank">LinkedIn</a>-->
+                    </div>
+
+                    <div class="gallery-grid">
+                        <div class="gallery-item"><img src="assets/images/project1.jpg" alt="Project 1"></div>
+                        <div class="gallery-item"><img src="assets/images/project2.jpg" alt="Project 2"></div>
+                        <div class="gallery-item"><img src="assets/images/project3.jpg" alt="Project 3"></div>
+                        <div class="gallery-item"><img src="assets/images/project4.jpg" alt="Project 4"></div>
+                    </div>
+                </div>
+
+                <!-- artist -->
+                <div id="artist" class="tab-panel">
+                    <h2>Artist</h2>
+
+                    <p>...</p>
+
+                    <div class="artist-links">
+                        <a href="https://instagram.com/peachie.company" class="social-link" target="_blank">Instagram</a>
+                        <!--<a href="https://etsy.com/yourstore" class="social-link" target="_blank">Etsy Store</a>-->
+                    </div>
+
+                    <div class="gallery-grid">
+                        <div class="gallery-item"><img src="assets/images/art1.jpg" alt="Artwork 1"></div>
+                        <div class="gallery-item"><img src="assets/images/art2.jpg" alt="Artwork 2"></div>
+                        <div class="gallery-item"><img src="assets/images/art3.jpg" alt="Artwork 3"></div>
+                        <div class="gallery-item"><img src="assets/images/art4.jpg" alt="Artwork 4"></div>
                     </div>
                 </div>
 
                 <!-- contact -->
                 <div id="contact" class="tab-panel">
                     <h2>Contact</h2>
+
                     <p>Get in touch with me!</p>
+
                     <form id="contact-form">
                         <input type="text" placeholder="Your Name" required>
                         <input type="email" placeholder="Your Email" required>
                         <textarea placeholder="Your Message" required></textarea>
                         <button type="submit" class="cta-button">Send Message</button>
                     </form>
-                    <div class="button-group">
-                        <button class="nav-button prev-button" data-tab="about">← Previous</button>
-                        <button class="nav-button next-button" data-tab="home">Next →</button>
+
+                    <div class="social-links">
+                        
                     </div>
                 </div>
             </div>
