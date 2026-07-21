@@ -1,0 +1,37 @@
+/* colors */
+:root {
+    --primary-color: #ffbadd;
+    --secondary-color: #ffb887;
+    --text: #301103;
+    --secondary-text: #5c2308;
+    --white: #fff;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: var(--text);
+    background-color: #ffb887;
+}
+
+/* navbar */
+
+
+/* hero section */
+
+
+/* footer */
+.footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffbadd;
+    color: var(--white);
+}
