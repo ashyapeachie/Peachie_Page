@@ -1,11 +1,13 @@
 /* colors */
 :root {
     --primary-color: #ffbadd;
-    --secondary-color: #ffb887;
-    --text: #301103;
-    --secondary-text: #5c2308;
+    --secondary-color: #a9f09b;
+    --accent-color: #ffb887;
+    --text: #6b3e31;
+    --secondary-text: #8d6e63;
     --white: #fff;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --bored-radius: 15px;
 }
 
 /* page */
@@ -22,11 +24,10 @@ body {
     background-color: #ffb887;
 }
 
-/* navbar */
-
-
-/* hero section */
-
+/* background img */
+.background {
+    position: fixed;
+}
 
 /* footer */
 .footer {

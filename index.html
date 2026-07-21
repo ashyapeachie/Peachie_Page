@@ -8,53 +8,80 @@
     </head>
 
     <body>
-        <!-- hero section -->
-        <header class="hero">
-            <nav class="navbar">
-                <div class="logo">MySite</div>
-                <ul class="nav-links">
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <!-- background img -->
+        <div class="background"></div>
 
-            <div class="hero-content">
+        <!-- main container -->
+        <div class="container">
+            <!-- header -->
+            <header class="header">
                 <h1>Welcome to Peachie's Landing Page</h1>
-                <p>a simple landing page for all of the things</p>
-                <a href="#contact" class="cta-button"></a>
+                <p>A cute little website...</p>
+            </header>
+
+            <!-- nav tabs -->
+            <div class="tabs">
+                <button class="tab-button active" data-tab="home">Home</button>
+                <button class="tab-button" data-tab="gallery">Gallery</button>
+                <button class="tab-button" data-tab="about">About</button>
+                <button class="tab-button" data-tab="contact">Contact</button>
             </div>
-        </header>
 
-        <!-- features section -->
-        <section id="features" class="features">
-            <h2>Features</h2>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <h3></h3>
-                    <p></p>
+            <!-- tab content -->
+            <div class="tab-content">
+                <!-- home -->
+                <div id="home" class="tab-panel active">
+                    <h2>Home</h2>
+                    <p>...</p>
+                    <div class="button-group">
+                        <button class="nav-button" id="prev-button">← Previous</button>
+                        <button class="nav-button" id="next-button">Next →</button>
+                    </div>
                 </div>
 
-                <div class="feature-card">
-                    <h3></h3>
-                    <p></p>
+                <!-- gallery -->
+                <div id="gallery" class="tab-panel">
+                    <h2>Gallery</h2>
+                    <p>...</p>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">Artwork 1</div>
+                        <div class="gallery-item">Artwork 2</div>
+                        <div class="gallery-item">Artwork 3</div>
+                        <div class="gallery-item">Artwork 4</div>
+                    </div>
+                    <div class="button-group">
+                        <button class="nav-button" id="prev-button">← Previous</button>
+                        <button class="nav-button" id="next-button">Next →</button>
+                    </div>
                 </div>
 
-                <div class="feature-card">
-                    <h3></h3>
-                    <p></p>
+                <!-- about -->
+                <div id="about" class="tab-panel">
+                    <h2>About</h2>
+                    <p>...</p>
+                    <div class="button-group">
+                        <button class="nav-button" id="prev-button">← Previous</button>
+                        <button class="nav-button" id="next-button">Next →</button>
+                    </div>
+                </div>
+
+                <!-- contact -->
+                <div id="contact" class="tab-panel">
+                    <h2>Contact</h2>
+                    <p>Get in touch with me!</p>
+                    <form id="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                    <div class="button-group">
+                        <button class="nav-button" id="prev-button">← Previous</button>
+                        <button class="nav-button" id="next-button">Next →</button>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <!-- contact section -->
-        <section id="contact" class="contact">
-
-        </section>
-
-        <!-- footer section -->
-        <footer class="footer">
-
-        </footer>
+        </div>
 
         <script src="scripts/script.js"></script>
     </body>
