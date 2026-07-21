@@ -21,7 +21,7 @@
 body {
     line-height: 1.6;
     color: var(--text);
-    background-color: #ffb887;
+    background-color: var(--secondary-color);
 }
 
 /* background img */
@@ -29,10 +29,27 @@ body {
     position: fixed;
 }
 
-/* footer */
-.footer {
-    text-align: center;
-    padding: 2rem;
-    background-color: #ffbadd;
-    color: var(--white);
-}
+/* container */
+
+
+/* header */
+
+
+/* tabs */
+
+
+/* tab content */
+
+
+/* buttons */
+
+
+/* nav buttons */
+
+
+/* gallery grid */
+
+
+/* contact */
+
+
