@@ -5,3 +5,7 @@ a mini landing page inspired by Carrd
 - HTML
 - CSS
 - JavaScript
+
+## 🍑 Author
+Ashya H. 
+Computer Information Technology Student- Programming Concentration
